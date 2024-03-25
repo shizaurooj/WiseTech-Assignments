@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-size: 20px;
+    width: 100vw
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    background-color: blanchedalmond;
+    height: 20vh;
+    width: 100vw;
+}
+.menu{
+    background-color: brown;
+    height: 60vh;
+    width: 20vw;
+}
+.content{
+    background-color: blueviolet;
+    height: 60vh;
+    width: 80vw;
+}
+.footer{
+    background-color: cornflowerblue;
+    height: 20vh;
+    width: 100vw;
+}
