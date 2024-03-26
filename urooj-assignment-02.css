@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-size: 30px;
+    width: 100vw
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    font-size: 40px;
+     justify-content: space-between;
+      align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: brown;
+    height: 60vh;
+    width: 20vw;
+}
+.content{
+    background-color: blueviolet;
+    height: 60vh;
+    width: 80vw;
+}
+.footer{
+    background-color: cornflowerblue;
+    height: 20vh;
+    width: 100vw;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.pages{
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+    gap: 20px;
+
+}
